@@ -71,6 +71,12 @@ body {
     grid-gap: 20px;
 }
 
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
 .text-center {
     text-align: center;
     margin: auto;
